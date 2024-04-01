@@ -1,11 +1,13 @@
 package main
 
 import (
-	"io"
-	"math/rand"
-	"os"
-	"sort"
-	"time"
+    "fmt"
+    "io"
+    "log"
+    "os"
+    "sort"
+    "math/rand"
+    "time"
 )
 
 type Process struct {
